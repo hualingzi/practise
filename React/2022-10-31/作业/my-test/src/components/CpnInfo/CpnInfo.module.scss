@@ -1,0 +1,32 @@
+.MaxBox {
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    position: fixed;
+    .MinBox {
+        width: 400px;
+        height: 400px;
+        padding: 20px;
+        border-radius: 6px;
+        background-color: #fff;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        align-items: center;
+        img {
+            width: 240px;
+        }
+        div {
+            margin-left: 30px;
+        }
+        .xStyle {
+            font-size: 30px;
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+}

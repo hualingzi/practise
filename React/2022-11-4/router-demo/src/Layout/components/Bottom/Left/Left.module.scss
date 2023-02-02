@@ -1,0 +1,28 @@
+.maxbox {
+    width: 220px;
+    text-align: center;
+    color: #bfcbd9;
+    background-color: #304156;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+
+        li {
+            height: 40px;
+            line-height: 40px;
+            list-style: none;
+
+            &:hover {
+                cursor: pointer;
+                background-color: #263445;
+            }
+        }
+
+        .active {
+            color: #409eff;
+            background-color: #263445;
+        }
+    }
+}

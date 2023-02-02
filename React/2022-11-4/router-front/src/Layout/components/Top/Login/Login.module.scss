@@ -1,0 +1,11 @@
+.login{
+    a{
+        text-decoration: none;
+        color: #999;
+        margin: 0 10px;
+        font-size: 14px;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

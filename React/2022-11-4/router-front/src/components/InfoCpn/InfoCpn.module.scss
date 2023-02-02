@@ -1,0 +1,86 @@
+.maxbox {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 100;
+    overflow: auto;
+
+    .minbox {
+        width: 1277px;
+        height: 800px;
+        margin: 50px 0;
+        border-radius: 6px;
+        background-color: #fff;
+        border-radius: 6px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .header {
+            height: 64px;
+            padding: 0px 24px;
+            display: flex;
+            align-items: center;
+
+            .avatar {
+                display: flex;
+                width: 500px;
+
+                .avatarimg {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    cursor: pointer;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .avatartext {
+                    margin: 0 8px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .main {
+            width: 100%;
+            height: 572px;
+            padding: 24px;
+            position: relative;
+
+            background-color: #f7f7f7;
+
+            .mainimg {
+                width: 400px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+
+        .footer {
+            width: 1200px;
+            margin: 24px auto 0;
+        }
+
+        .xStyle{
+            font-size: 30px;
+            position: absolute;
+            top: 0;
+            right: 10px;
+            cursor: pointer;
+        }
+
+    }
+}

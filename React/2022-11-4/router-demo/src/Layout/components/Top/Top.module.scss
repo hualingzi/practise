@@ -1,0 +1,15 @@
+.maxbox {
+    height: 60px;
+    padding: 0 30px;
+    line-height: 60px;
+    color: #fff;
+    background-color: #409eff;
+    display: flex;
+    justify-content: space-between;
+    div {
+        cursor: pointer;
+        span {
+            margin-left: 20px;
+        }
+    }
+}

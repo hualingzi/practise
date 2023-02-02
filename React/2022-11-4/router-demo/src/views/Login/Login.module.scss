@@ -1,0 +1,48 @@
+.maxbox {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://w.wallhaven.cc/full/x6/wallhaven-x6128o.jpg');
+    background-size: cover;
+
+    .login {
+        width: 400px;
+        padding: 40px;
+        background-color: rgba(255, 255, 255, .5);
+        // background-color: #fff;
+        // opacity: 0.5;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 4px;
+        box-shadow: 0 20px 50px 0 hsl(0deg 0% 64% / 10%);
+
+        .tabs {
+            text-align: center;
+            margin-bottom: 40px;
+
+            span {
+                font-size: 22px;
+            }
+        }
+
+        .user {
+            form {
+                div {
+                    width: 320px;
+                    margin-left: 0;
+
+                    input {
+                        width: 100%;
+                        height: 30px;
+                    }
+
+                    button {
+                        width: 100%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

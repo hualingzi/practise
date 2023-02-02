@@ -1,0 +1,22 @@
+.table {
+    width: 1200px;
+    // margin: auto;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 5px 16px #d9d4c7;
+    padding: 40px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    .operation {
+        margin: 0 0 20px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .page {
+        margin-top: 20px;
+    }
+}
